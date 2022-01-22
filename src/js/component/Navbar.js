@@ -2,10 +2,13 @@ import React from "react";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
-			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
-					Navbar w/ text
+		<nav className="navbar navbar-expand-lg navbar-white bg-black">
+			<div className="container">
+				<a
+					className="navbar-brand "
+					href="#"
+					style={{ color: "white" }}>
+					Start Bootstrap
 				</a>
 				<button
 					className="navbar-toggler"
@@ -17,30 +20,24 @@ const Navbar = () => {
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarText">
-					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
-						<li className="nav-item">
-							<a
-								className="nav-link active"
-								aria-current="page"
-								href="#">
-								Home
-							</a>
-						</li>
-						<li className="nav-item">
-							<a classNameName="nav-link" href="#">
-								Features
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Pricing
-							</a>
-						</li>
-					</ul>
-					<span className="navbar-text">
-						Navbar text with an inline element
-					</span>
+				<div
+					className="collapse navbar-collapse d-flex justify-content-end "
+					id="navbarText">
+					<a
+						className="nav-link "
+						href="#"
+						style={{ color: "white" }}>
+						Home
+					</a>
+					<a className="nav-link" href="#" style={{ color: "white" }}>
+						About
+					</a>
+					<a className="nav-link" href="#" style={{ color: "white" }}>
+						Services
+					</a>
+					<a className="nav-link" href="#" style={{ color: "white" }}>
+						Contact
+					</a>
 				</div>
 			</div>
 		</nav>
